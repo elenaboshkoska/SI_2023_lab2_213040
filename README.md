@@ -1,17 +1,17 @@
 # Елена Бошкоска 213040
 
-2.![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/6f658103-9ded-4025-904b-dd4fbe0d9402)
+2.![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/abf88fc6-8e2a-4a9a-9aa0-849a017aaac6)
 
 3. Цикломатската комплексност на графот е добиена со формулата P+1 каде што P е бројот на предикатни јазли. Исто така цикломатската комплексност може да се добие со броење на регионите во графот кој што е нацртан како резултат на дадениот код.
 4. Најпрво според EveryBranch, односно според графот ги напишав сите гранки кои се добиваат од графот, а треба да бидат опфатени од соодветни тест случаи. Минималниот број на тестови кои ги добив се 4, а истите ќе ги образложам во продолжение поединечно.
   4.1. На првава слика е опфатен првиот случај, каде што потребно е user да биде null. Овој тест ќе помине на две разгранувања, а тоа се јазлите 36 -37 и 37 -75.
 
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/8292743e-1f20-4d84-a62b-3a1d93000d81)
+![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/e0562e61-1aff-437c-b955-cea59ecd9e19)
 
 Следен тест случај е username= bosElena, mail:boskgmailcom, password: softversko inzenerstvo односно овде го опфаќам случајот на невалиден е-маил.
   4.2. Она што го добив е следното:
   
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/8db74bf5-faa7-4b3a-bdbb-e544779f3e21)
+![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/46356232-7003-4c1b-a6ab-cc1193cb3be9)
 
 
 
@@ -19,11 +19,11 @@
 
  4.3. Следи приказ на чекорите кои се опфатени со овој услов:
 
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/5eb90acf-344e-4a51-97dd-f3cdffb95de4)
+![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/1fee1622-8238-4749-973d-a6642d85359a)
 
- 4.4.Последен тест случај е всушност и петтиот со кој Every Branch условот е завршен:
+ 4.4.Последен тест случај е всушност и четвртиот со кој Every Branch условот е завршен:
 
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/4aed712e-d721-4ba5-9bb7-94813da81cef)
+![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/91eebe1d-8319-48ab-83c0-646b8abc477a)
 
 5. Според Multiple Condition критериумот за условот
 if (user==null || user.getPassword()==null || user.getEmail()==null) бројот на тест случаи кој го добив е 4.
