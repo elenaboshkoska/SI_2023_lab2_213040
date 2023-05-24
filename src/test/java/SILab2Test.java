@@ -20,7 +20,7 @@ public class SILab2Test {
         ex= assertThrows(RuntimeException.class,() -> SILab2.function(null,allUsers));
         assertTrue(ex.getMessage().contains("Mandatory information missing!")); //ova e za prviot slucaj (null username)
 
-        allUsers.add(new User("", "elena123", "elenaboskoska@gmail.com"));
+        allUsers.add(new User("", "elena23", "elenaboskoska@gmail.com"));
         assertFalse(SILab2.function(nullUsernameUser, allUsers)); // vtoriot sucaj so prazen username i setiranje na mail na mestoto od username
         User newuser=new User("elena","password","elenaboskoska@gmail.com");
         allUsers.add(newuser);
