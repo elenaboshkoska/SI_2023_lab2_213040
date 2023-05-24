@@ -19,7 +19,7 @@
 
  4.3. Следи приказ на чекорите кои се опфатени со овој услов:
 
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/1fee1622-8238-4749-973d-a6642d85359a)
+![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/f2eecd1f-1563-4173-8772-8546ea057100)
 
  4.4.Последен тест случај е всушност и четвртиот со кој Every Branch условот е завршен:
 
