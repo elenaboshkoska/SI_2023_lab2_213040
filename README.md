@@ -1,17 +1,17 @@
 # Елена Бошкоска 213040
 
-2.![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/abf88fc6-8e2a-4a9a-9aa0-849a017aaac6)
+2.![CFG-Graf](CFG-Graf.png)
 
 3. Цикломатската комплексност на графот е добиена со формулата P+1 каде што P е бројот на предикатни јазли. Исто така цикломатската комплексност може да се добие со броење на регионите во графот кој што е нацртан како резултат на дадениот код.
 4. Најпрво според EveryBranch, односно според графот ги напишав сите гранки кои се добиваат од графот, а треба да бидат опфатени од соодветни тест случаи. Минималниот број на тестови кои ги добив се 5, а истите ќе ги образложам во продолжение поединечно.
   4.1. На првава слика е опфатен првиот случај, каде што потребно е user да биде null. Овој тест ќе помине на две разгранувања, а тоа се јазлите 36 -37 и 37 -75.
 
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/e0562e61-1aff-437c-b955-cea59ecd9e19)
+![test1](test1.png)
 
 Следен тест случај е username= bosElena, mail:boskgmailcom, password: softversko inzenerstvo односно овде го опфаќам случајот на невалиден е-маил.
   4.2. Она што го добив е следното:
   
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/46356232-7003-4c1b-a6ab-cc1193cb3be9)
+![test2](test2.png)
 
 
 
@@ -19,15 +19,15 @@
 
  4.3. Следи приказ на чекорите кои се опфатени со овој услов:
 
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/f2eecd1f-1563-4173-8772-8546ea057100)
+![test1](test3.png)
 
  4.4.Четврт тест случај :
  
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/4f3bae89-5d68-4ec2-b85c-7db11dd43050)
+![test1](test4.png)
 
 4.5 Петти, а воедно и последен тест случај:
 
-![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/ee55797e-57d4-4778-944c-6bce28bdbc0d)
+![test1](test5.png)
 
 5. Според Multiple Condition критериумот за условот
 if (user==null || user.getPassword()==null || user.getEmail()==null) бројот на тест случаи кој го добив е 4.
