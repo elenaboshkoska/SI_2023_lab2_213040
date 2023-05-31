@@ -21,8 +21,8 @@
 
 ![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/f2eecd1f-1563-4173-8772-8546ea057100)
 
- 4.4.Четврт тест случај е всушност и четвртиот со кој Every Branch условот е завршен:
-
+ 4.4.Четврт тест случај :
+ 
 ![image](https://github.com/elenaboshkoska/SI_2023_lab2_213040/assets/108356236/4f3bae89-5d68-4ec2-b85c-7db11dd43050)
 
 4.5 Петти, а воедно и последен тест случај:
