@@ -34,7 +34,8 @@ public class SILab2Test {
         User BlankPassword = new User ("elena", "softversko123!", "elenaboskoska@gmail.com");
         assertFalse(SILab2.function(BlankPassword, allUsers)); //cetvrt slucaj
 
-
+         User NoSignsinPassword = new User ("milena", "softverskoo", "elenaboshkoska@gmail.com");
+         assertFalse(SILab2.function(NoSignsinPassword, allUsers));
 
     }
 
